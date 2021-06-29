@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto IMC Calculator</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="linha">
+                <div class="coluna">
+                    <figure>
+                        <img src="./src/img/logosembg.png" alt="Logo olimpiadas da programação web">
+                    </figure>
+                </div>
+                <div class="coluna">
+                    <h1>Projeto Calculadora de IMC</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container2">
+            <h1>Calcule seu IMC</h1>
+            <form>
+              <p>Informe seu peso</p>
+              <div>
+                <input id="peso" type="number"/>
+                <span>Kg</span>
+              </div>
+              <div>
+                <p>Informe sua altura</p>
+                <input id="altura" type="number"/>
+                <span>cm</span>
+              </div>
+              <div>
+                <input id="btnCalcular" class="botao-calcular" type="button" value="Calcular"/>
+              </div>
+            </form>
+            <div id="resultado"></div>
+          </div>
+    </main>
+    <script type="text/javascript" src="./src/js/script.js"></script>
+</body>
+</html>
